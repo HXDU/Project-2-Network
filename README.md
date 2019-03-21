@@ -7,4 +7,4 @@ We build a network based on '@'. 297 tweets of Trump's and 274  tweets of Obama'
 
 # Data Set  
 trumptweets.csv and obamatweets.csv are files of tweets, there are four attributes: favourite_count, retweet_account, time(when the tweet was posted), tweet(unprocessed).
-trumplinks.csv and obamalinks.csv are files of processed tweets, there are six attributes: start(user, Trump or Obama), dest@(people who were mentioned in this tweet in the form of "@"), favourite_count, retweet_account, time, tweet(removed url, Non-Ascii characters and the user names that were mentioned via "@"). 
+trumplinks.csv and obamalinks.csv are files of processed tweets, there are six attributes: start(user, Trump or Obama), dest@(people who were mentioned in this tweet following "@"), favourite_count, retweet_account, time, tweet(removed url, Non-Ascii characters and the user names that were mentioned via "@"). 
