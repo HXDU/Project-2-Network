@@ -1,10 +1,11 @@
 # Project-2-Network  
 # Data Collection  
-Use Tweepy to collect the top 15 pages' tweets of Donald Trump and Barack Obama. Refer to the tweetsCollection.ipynb file.  
-There are 2506 tweets of Trump, which dated back from 03-22-2019 to 06-27-2018.  
-There are 2739 tweets of Obama, which dated back from 03-22-2019 to 11-10-2014.   
-We build a network based on '@'. 425 tweets of Trump's and 283 tweets of Obama's are qualified. As one tweet may "@" 1 or more users, Trump mentioned 538 people in his tweets, the number for Obama is 300.
+Use Tweepy to collect the top 16 pages' tweets of Donald Trump and Barack Obama. Refer to the tweetsCollection.ipynb file.  
+There are 2674 tweets of Trump, which dated back from 03-22-2019 to 06-13-2018.  
+There are 2932 tweets of Obama, which dated back from 03-22-2019 to 09-22-2014.   
+
 
 # Data Set  
-trumptweets.csv and obamatweets.csv are files of tweets, there are four attributes: favourite_count, retweet_account, time(when the tweet was posted), tweet(unprocessed).  
+trumptweets.csv and obamatweets.csv are files of tweets, there are four attributes: favourite_count, retweet_account, time(when the tweet was posted), tweet(unprocessed).   
+We build a network based on '@'. 444 tweets of Trump's and 296 tweets of Obama's are qualified. As one tweet may "@" 1 or more users, Trump mentioned 560 people in his tweets, the number for Obama is 313. There are 12 users in common, they are: 'ABC', 'nytimes', 'business', 'FLOTUS', 'WSJ', 'VP', 'USArmy', 'DHSgov', 'CNN', 'NYTimes', 'WhiteHouse', 'POTUS'.    
 trumplinks.csv and obamalinks.csv are files of processed tweets, there are six attributes: start(user, Trump or Obama), dest@(people who were mentioned in this tweet following "@"), favourite_count, retweet_account, time, url(the url for this tweet, if there is), tweet(removed url, Non-Ascii characters and the user names that were mentioned via "@"). 
