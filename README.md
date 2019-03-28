@@ -10,3 +10,9 @@ trumptweets.csv and obamatweets.csv are files of tweets, there are four attribut
 We build a network based on '@'. 444 tweets of Trump's and 296 tweets of Obama's are qualified. As one tweet may "@" 1 or more users, Trump mentioned 560 people in his tweets, the number for Obama is 313. There are 12 users in common, they are: 'ABC', 'nytimes', 'business', 'FLOTUS', 'WSJ', 'VP', 'USArmy', 'DHSgov', 'CNN', 'NYTimes', 'WhiteHouse', 'POTUS'.    
 trumplinks.csv and obamalinks.csv are files of processed tweets, there are six attributes: start(user, Trump or Obama), dest@(people who were mentioned in this tweet following "@"), favourite_count, retweet_account, time, url(the url for this tweet, if there is), tweet(removed url, Non-Ascii characters and the user names that were mentioned via "@").   
 trumpcommon.csv and obamacommon.csv are in the same format with trumplinks.csv, except that the users who were mentioned via @ are shared by Trump's and Obama's tweets. 
+
+
+
+# D3 Example:
+http://www.findtheconversation.com/concept-map/
+
