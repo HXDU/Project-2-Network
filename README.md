@@ -13,6 +13,7 @@ trumpcommon.csv and obamacommon.csv are in the same format with trumplinks.csv, 
 
 
 
-# D3 Example:
+
+# D3 Example found on https://github.com/d3/d3/wiki/Gallery:
 http://www.findtheconversation.com/concept-map/
 
