@@ -8,21 +8,12 @@
             "date": "2012-05-05 23:50:11",
             "slug": "ditem-one-reverend-john-fife",
             "links": [
-                "Class",
-                "Collapse",
-                "Community",
-                "Economy",
-                "Environment",
-                "Equality",
-                "Government",
-                "Race",
-                "Spirituality",
-                "Biocentric",
-                "Centralized",
-                "Collectivist",
-                "Dualist",
-                "Objectivist",
-                "Psychological Continuity"
+                "2016",
+                "2017",
+                "2018",
+                "2016 ",
+                "2017 ",
+                "2018 "
             ]
         },
         {
@@ -472,111 +463,6 @@
                 "Free Will",
                 "Intrinsic",
                 "Localized",
-                "Subjectivist"
-            ]
-        },
-        {
-            "type": "ditem",
-            "name": "Jenny Lee",
-            "description": "Jenny Lee is a co-director of <a href=\"http://alliedmedia.org/\">Allied Media Projects</a>, a Detroit organization focused on the intersection of media and social justice. AMP sponsors the annual <a href=\"http://amc.alliedmedia.org/\">Allied Media Conference</a>.",
-            "ditem": 26,
-            "date": "2012-09-21 11:09:19",
-            "slug": "ditem-26-jenny-lee",
-            "links": [
-                "Class",
-                "Community",
-                "Equality",
-                "Gender",
-                "Media",
-                "Mythology",
-                "Race",
-                "Anthropocentric",
-                "Collectivist",
-                "Localized",
-                "Subjectivist"
-            ]
-        },
-        {
-            "type": "ditem",
-            "name": "Patrick Crouch",
-            "description": "Patrick Crouch is the Program Manager at the <a href=\"http://cskdetroit.org/index.php/EWG\">Earthworks Urban Farm</a> in Detroit, Michigan. The farm is a project of the <a href=\"http://cskdetroit.org/\">Capuchin Soup Kitchen</a> and is the only certified organic farm in the city.",
-            "ditem": 27,
-            "date": "2012-09-26 19:30:44",
-            "slug": "ditem-27-patrick-crouch",
-            "links": [
-                "Agriculture",
-                "Class",
-                "Community",
-                "Economy",
-                "Environment",
-                "Sci/Tech",
-                "Spirituality",
-                "Anthropocentric",
-                "Collectivist",
-                "Localized",
-                "Physicalist"
-            ]
-        },
-        {
-            "type": "ditem",
-            "name": "Tim Cannon",
-            "description": "Tim Cannon is a co-founder of <a href=\"http://www.grindhousewetware.com/\">Grindhouse Wetware</a>, a group of open-source <a href=\"http://en.wikipedia.org/wiki/Biohacking\">biohackers</a> in Pittsburg, Pennsylvania.",
-            "ditem": 28,
-            "date": "2012-10-03 13:36:18",
-            "slug": "ditem-28-tim-cannon",
-            "links": [
-                "Collapse",
-                "Happiness",
-                "Sci/Tech",
-                "Spirituality",
-                "Anthropocentric",
-                "Determinism",
-                "Extrinsic",
-                "Individualist",
-                "Localized",
-                "Physicalist",
-                "Psychological Continuity",
-                "Subjectivist"
-            ]
-        },
-        {
-            "type": "ditem",
-            "name": "Lawrence Torcello",
-            "description": "<a href=\"http://www.rit.edu/cla/philosophy/Torcello.html\">Lawrence Torcello</a> is a philosopher focusing on ethics, politics, and the environment. He is especially interested in the problem of embracing pluralism while rejecting moral relativism. ",
-            "ditem": 29,
-            "date": "2012-10-15 22:23:58",
-            "slug": "ditem-29-lawrence-torcello",
-            "links": [
-                "Education",
-                "Equality",
-                "Government",
-                "Law",
-                "Anthropocentric",
-                "Psychological Continuity",
-                "Subjectivist"
-            ]
-        },
-        {
-            "type": "ditem",
-            "name": "Henry Louis Taylor, Jr.",
-            "description": "<a href=\"http://www.ap.buffalo.edu/planning/people/taylor.asp\">Henry Louis Taylor, Jr.</a> is the Director for the <a href=\"http://www.centerforurbanstudies.com/\">Center for Urban Studies</a> at the University of Buffalo and the <a href=\"http://www.buffalo.edu/ubreporter/2012_01_26/perry_choice\">Project Coordinator</a> for the <a href=\"http://www.bmhapcn.com\">Perry Choice Neighborhood Initiative</a>. His work has looked at urban planning, regional development, and history in the United States and <a href=\"http://www.amazon.com/Inside-El-Barrio-Bottom-Up-Neighborhood/dp/1565492811/ref=sr_1_4?s=books&amp;ie=UTF8&amp;qid=1350936300&amp;sr=1-4&amp;keywords=henry+louis+taylor\">Cuba</a>.",
-            "ditem": 30,
-            "date": "2012-10-22 15:25:21",
-            "slug": "ditem-30-henry-louis-taylor-jr",
-            "links": [
-                "Class",
-                "Community",
-                "Education",
-                "Environment",
-                "Equality",
-                "Government",
-                "Mythology",
-                "Race",
-                "Anthropocentric",
-                "Centralized",
-                "Collectivist",
-                "Objectivist",
-                "Physicalist",
                 "Subjectivist"
             ]
         },
@@ -1058,19 +944,19 @@
     "LeftSide": [
         {
             "type": "theme",
-            "name": "Agriculture",
+            "name": "2016",
             "description": "",
             "slug": "agriculture-2"
         },
         {
             "type": "theme",
-            "name": "Art",
+            "name": "2017",
             "description": "",
             "slug": "art-2"
         },
         {
             "type": "theme",
-            "name": "Class",
+            "name": "2018",
             "description": "",
             "slug": "class-2"
         },
@@ -1186,7 +1072,7 @@
     "RightSide": [
         {
             "type": "perspective",
-            "name": "Biocentric",
+            "name": "2014",
             "description": "To varying degrees, these conversations treat human life as having <a href=\"http://en.wikipedia.org/wiki/Biocentrism_%28ethics%29\">similar or equal moral weight</a> to other life. We are also including broader-than-life value sources like <a href=\"http://en.wikipedia.org/wiki/Ecocentrism\">ecocentrism</a> in this category. Antonym: <a href=\"http://www.findtheconversation.com/concept-map/#anthropocentric\">anthropocentric</a>.",
             "slug": "biocentric-value-source",
             "count": "10",
@@ -1194,7 +1080,7 @@
         },
         {
             "type": "perspective",
-            "name": "Anthropocentric",
+            "name": "2015",
             "description": "To varying degrees, these conversations treat human life as having <a href=\"http://en.wikipedia.org/wiki/Anthropocentrism\">greater moral weight</a> than other life. Antonym: <a href=\"http://www.findtheconversation.com/concept-map/#biocentric\">biocentric</a>.",
             "slug": "anthropocentric-value-source",
             "count": "26",
@@ -1202,7 +1088,7 @@
         },
         {
             "type": "perspective",
-            "name": "Collectivist",
+            "name": "2016 ",
             "description": "Every society attempts to balance individual freedom with collective good. These ditems feature conversations that suggest we have slid too far towards individualism and need to move towards the group. Antonym: <a href=\"http://www.findtheconversation.com/concept-map/#individualist\">individualist</a>.",
             "slug": "collectivist",
             "count": "21",
@@ -1210,7 +1096,7 @@
         },
         {
             "type": "perspective",
-            "name": "Individualist",
+            "name": "2017 ",
             "description": "Every society attempts to balance personal freedom with collective good. These ditems feature conversations that suggest we have slid too far towards collectivism and need to push towards individualism. Antonym: <a href=\"http://www.findtheconversation.com/concept-map/#collectivist\">collectivist</a>.",
             "slug": "individualist",
             "count": "9",
@@ -1218,7 +1104,7 @@
         },
         {
             "type": "perspective",
-            "name": "Centralized",
+            "name": "2018 ",
             "description": "These ditems feature interviewees who feel the problems they are discussing can be better addressed through centralized systems than localized ones. Antonym: <a href=\"http://www.findtheconversation.com/concept-map/#localized\">localized</a>.",
             "slug": "centralized",
             "count": "11",
