@@ -16,4 +16,6 @@ trumpcommon.csv and obamacommon.csv are in the same format with trumplinks.csv, 
 
 # D3 Example found on https://github.com/d3/d3/wiki/Gallery:
 http://www.findtheconversation.com/concept-map/
-
+  
+# Findings:
+1. Trump is one fervent Twiiter user. The average number of favorite count and retweet count for his tweets (common @ with Obama) exceed Obama's. 
