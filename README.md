@@ -11,7 +11,9 @@ We build a network based on '@'. 444 tweets of Trump's and 296 tweets of Obama's
 trumplinks.csv and obamalinks.csv are files of processed tweets, there are six attributes: start(user, Trump or Obama), dest@(people who were mentioned in this tweet following "@"), favourite_count, retweet_account, time, url(the url for this tweet, if there is), tweet(removed url, Non-Ascii characters and the user names that were mentioned via "@").   
 trumpcommon.csv and obamacommon.csv are in the same format with trumplinks.csv, except that the users who were mentioned via @ are shared by Trump's and Obama's tweets.   
 Similarly, we extracted a shared hashtag data set based on the tweets we collected to see the common hashtags that were used by Trump and Obama.
-
+185 of Trump's tweets have hashtags, we retrieved a total 200 hashtags as some of his tweets used more than one hashtag in one tweet, some of his tweets used repeated hashtags. 
+Surprisingly, 1530 of Obama's tweets are marked with hashtags and we collected 1614 hashtags in total. 
+For Trump and Obama, they shared 7 unique hashtags based on our data set, they are: 'SCOTUS', 'MadeInAmerica', 'FlagDay', 'TBT', 'MLKDay', 'SOTU',and 'UNGA'. On this account, 16 of Trump's tweets and 170 of Obama's tweets are visualized in this project.
 
 
 # D3 Example found on https://github.com/d3/d3/wiki/Gallery:
