@@ -23,4 +23,5 @@ http://www.findtheconversation.com/concept-map/
 1. It is not a secert that Donald Trump is one fervent Twiiter user. However, numbers may surprise people. The average number of favorite count and retweet count for his tweets (common @ with Obama) exceed Obama's. We plot a bar chart to visualize the difference between them. 
 ![image](https://github.com/HXDU/Project-2-Network/blob/master/compare.png)  
 The difference is so large that we take a base 2 log to make the bars representing Obama more visible.
-![image](https://github.com/HXDU/Project-2-Network/blob/master/log_compare.png)
+![image](https://github.com/HXDU/Project-2-Network/blob/master/log_compare.png)  
+2. While Trump is fond of tweeting, Obama loves hashtags so much that the number of his hashtaged tweets is about 8 times of Trump's. 
