@@ -1,9 +1,13 @@
 # Project-2-Network  
 # Data Collection  
-Use Tweepy to collect the top 16 pages' tweets of Donald Trump and Barack Obama. Refer to the tweetsCollection.ipynb file.  
+Use Tweepy to collect the top 16 pages' tweets of Donald Trump and Barack Obama. Refer to the tweetsCollection.ipynb file.
+Since they both have a personal account and an official presidential account, we collected both of them.  
+For their personal accounts:  
 There are 2674 tweets of Trump, which dated back from 03-22-2019 to 06-13-2018.  
-There are 2932 tweets of Obama, which dated back from 03-22-2019 to 09-22-2014.   
-
+There are 2932 tweets of Obama, which dated back from 03-22-2019 to 09-22-2014.     
+For their official accounts:
+There are 3766 tweets of Trump, there are 5514 tweets in total in his account.
+There are 337 tweets of Obama, which almost covers his whole presidency. 
 
 # Data Set  
 trumptweets.csv and obamatweets.csv are files of tweets, there are four attributes: favourite_count, retweet_account, time(when the tweet was posted), tweet(unprocessed).   
@@ -13,8 +17,8 @@ trumpcommon.csv and obamacommon.csv are in the same format with trumplinks.csv, 
 Similarly, we extracted a shared hashtag data set based on the tweets we collected to see the common hashtags that were used by Trump and Obama.
 185 of Trump's tweets have hashtags, we retrieved a total 200 hashtags as some of his tweets used more than one hashtag in one tweet, some of his tweets used repeated hashtags. 
 Surprisingly, 1530 of Obama's tweets are marked with hashtags and we collected 1614 hashtags in total. 
-For Trump and Obama, they shared 7 unique hashtags based on our data set, they are: 'SCOTUS', 'MadeInAmerica', 'FlagDay', 'TBT', 'MLKDay', 'SOTU',and 'UNGA'. On this account, 16 of Trump's tweets and 170 of Obama's tweets are visualized in this project.
-
+For Trump and Obama, they shared 7 unique hashtags based on our data set, they are: 'SCOTUS', 'MadeInAmerica', 'FlagDay', 'TBT', 'MLKDay', 'SOTU',and 'UNGA'. On this account, 16 of Trump's tweets and 170 of Obama's tweets are visualized in this project.  
+For their official accounts, 241 of Trump's tweets have hashtags and there are 280 hashtage; Surprisingly, only 34 of Obama's tweets have hashtags and there are 35 hashtags. Their shared hashtags are: MLKDay, 1, and InternationalWomensDay. 1 is not acturally one hashtag but was shown in the term of "#1". That is why it was chosen when we preprocess the data.
 
 # D3 Example found on https://github.com/d3/d3/wiki/Gallery:
 http://www.findtheconversation.com/concept-map/
