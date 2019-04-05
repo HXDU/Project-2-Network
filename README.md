@@ -19,6 +19,7 @@ Similarly, we extracted a shared hashtag data set based on the tweets we collect
 Surprisingly, 1530 of Obama's tweets are marked with hashtags and we collected 1614 hashtags in total. 
 For Trump and Obama, they shared 7 unique hashtags based on our data set, they are: 'SCOTUS', 'MadeInAmerica', 'FlagDay', 'TBT', 'MLKDay', 'SOTU',and 'UNGA'. On this account, 16 of Trump's tweets and 170 of Obama's tweets are visualized in this project.  
 For their official accounts, 241 of Trump's tweets have hashtags and there are 280 hashtage; Surprisingly, only 34 of Obama's tweets have hashtags and there are 35 hashtags. Their shared hashtags are: MLKDay, 1, and InternationalWomensDay. 1 is not acturally one hashtag but was shown in the term of "#1". That is why it was chosen when we preprocess the data.
+For their official accounts, there are 8 shared user account: '', 'Space_Station', 'JustinTrudeau', 'FLOTUS', 'VP', 'NASA', 'NatlParkService', 'POTUS'. 
 
 # D3 Example found on https://github.com/d3/d3/wiki/Gallery:
 http://www.findtheconversation.com/concept-map/
