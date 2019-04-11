@@ -26,10 +26,9 @@
 
             <body>
 
-                <h1 id="TT">SHARED TWEETS</h1> 
-                <h2 id = "TThing">T</h2> 
+                <h1 id="TT"> </h1> 
+                <h2 id = "TThing"> </h2> 
                 
-
                 <script> 
                     function WS(x) {
                         var a = "";
@@ -48,7 +47,7 @@
 
                 <script>
                     (function(){
-                        d3.json("data.json", function(dataJson) {
+                        d3.json("https://backendlessappcontent.com/C26D8816-5228-6E63-FF5C-9AF05C4C3D00/3AD739FF-ADC7-5472-FF3E-56C25224D600/files/data.json", function(dataJson) {
                             var plot = new ConceptMap("graph", "graph-info", dataJson);
                         });
                     })();

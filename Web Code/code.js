@@ -478,7 +478,7 @@ var biPartite = function() {
         }
 
         function a(t, e) {
-            if (H.node === t && !0 !== e) return "ditem" === t.type ? void(window.location.href = "/" + t.slug) : (H.node.children.forEach(function(t) {
+            if (H.node === t && !0 !== e) return "ditem" === t.type ? void(window.open(t.slug, '_blank') ) : (H.node.children.forEach(function(t) {
                 t.children = t._group
             }), void s());
             if (t.isGroup) return H.node.children.forEach(function(t) {
@@ -540,6 +540,12 @@ var biPartite = function() {
             }), f(x.get("ditems")), l(d3.merge([x.get("LeftSide"), x.get("RightSide")])), d([]), h(M), U.html('<a href="/the-concept-map/">What\'s this?</a>'), i(), p()
         }
 
+        function getLink(url) {
+            var a = '<a target="_blank" href="https:google.com">'
+            a = a + "TWEET LINK" //Text that is clickable
+            return a + "</a>"   
+        }
+        
         function s() {
             var t = j.nodes(H.node);
             t.forEach(function(t) {
@@ -548,7 +554,7 @@ var biPartite = function() {
                 "ditem" === t.source.type ? t.key = t.source.canonicalKey + "-to-" + t.target.canonicalKey : t.key = t.target.canonicalKey + "-to-" + t.source.canonicalKey, t.canonicalKey = t.key
             }), u(), q.selectAll("path").transition().duration(R).ease(S).attr("d", W), f([]), l(t), d([H.node]), h([]);
             var e = "";
-            H.node.description && (e = H.node.description), U.html(e), i(), p()
+            H.node.description && (e = H.node.description + getLink("google.com")), U.html(e), i(), p()
         }
 
         function l(t) {
@@ -601,7 +607,7 @@ var biPartite = function() {
                 n = e.enter().append("g").attr("class", "detail"),
                 i = t[0];
             if (i && "ditem" === i.type) n.append("a").attr("xlink:href", function(t) {
-                return "/" + t.slug
+                return + t.slug
             }).append("text").attr("fill", "#FFF").attr("text-anchor", "middle").attr("y", -1 * (D + N)).text(function(t) {
                 return "ITEM " + t.ditem
             });
@@ -649,6 +655,8 @@ var biPartite = function() {
         }
 
         function h(t) {
+            //THIS GOT RID OF CURVE PATH PATHS
+            return;
             var e = V.selectAll("path").data(t);
             e.enter().append("path").attr("d", function(t) {
                 return F([
