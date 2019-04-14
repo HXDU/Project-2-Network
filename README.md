@@ -1,4 +1,19 @@
-# Project-2-Network  
+# Project 2: Shared Twitter Mentions and Hashtags between Trump and Obama
+http://project2.noahgomez.com
+
+# Project Video (Youtube Link)
+https://www.youtube.com/watch?v=ldNwQg_eMhc&feature=youtu.be
+
+# Team Contributions:
+H. Du:
+- Completed gathering, filtering &  formatting of the tweet data in both CSV and JSON files. Hashtag, and mention data in seperate files from both Trump & Obama twitter accounts respectivly
+- Created the word clouds for both Trump & Obama
+
+N. Gomez:
+- Completed the Frontend (HTML, JS) and edited D3 graph code to fit the tweet data
+- Created JS functions for appropriate data interpretation and presentation, along with adding/editing twitter links as well as bundling tweet data by quartile and created custom HTML/JS to showcase links based on timeframe once user has clicked a quartile
+
+
 # Data Collection  
 Use Tweepy to collect the top 16 pages' tweets of Donald Trump and Barack Obama. Refer to the tweetsCollection.ipynb file.
 Since they both have a personal account and an official presidential account, we collected both of them.  
@@ -21,12 +36,23 @@ For Trump and Obama, they shared 7 unique hashtags based on our data set, they a
 For their official accounts, 241 of Trump's tweets have hashtags and there are 280 hashtage; Surprisingly, only 34 of Obama's tweets have hashtags and there are 35 hashtags. Their shared hashtags are: MLKDay, 1, and InternationalWomensDay. 1 is not acturally one hashtag but was shown in the term of "#1". That is why it was chosen when we preprocess the data.
 For their official accounts, there are 8 shared user account: '', 'Space_Station', 'JustinTrudeau', 'FLOTUS', 'VP', 'NASA', 'NatlParkService', 'POTUS'. 
 
-# D3 Example found on https://github.com/d3/d3/wiki/Gallery:
-http://www.findtheconversation.com/concept-map/
-  
 # Findings:
 1. It is not a secert that Donald Trump is one fervent Twiiter user. However, numbers may surprise people. The average number of favorite count and retweet count for his tweets (common @ with Obama) exceed Obama's. We plot a bar chart to visualize the difference between them. 
 ![image](https://github.com/HXDU/Project-2-Network/blob/master/compare.png)  
 The difference is so large that we take a base 2 log to make the bars representing Obama more visible.
 ![image](https://github.com/HXDU/Project-2-Network/blob/master/log_compare.png)  
 2. While Trump is fond of tweeting, Obama loves hashtags so much that the number of his hashtaged tweets is about 8 times of Trump's. 
+
+# Tweet Word clouds
+
+Both wordcould graphs take their official account and personal account as the data source. Tweets have been preprocessed by: removing stopwords, hashtags, urls and mentioning names, getting tokenized and lemmatized, then were used to generate the wordcloud. 
+
+### Trump wordcloud
+https://backendlessappcontent.com/C26D8816-5228-6E63-FF5C-9AF05C4C3D00/console/hvrfcpuajpwjgidevigxbipjnovtshyrrext/files/view/trump_wc.png 
+
+### Obama wordcloud
+https://backendlessappcontent.com/C26D8816-5228-6E63-FF5C-9AF05C4C3D00/console/hvrfcpuajpwjgidevigxbipjnovtshyrrext/files/view/obama_wc.png
+
+# D3 Concept network browser (That we built on): http://www.findtheconversation.com/concept-map/
+Source code found on https://github.com/d3/d3/wiki/Gallery (CTRL+F "Concept network browser")
+
